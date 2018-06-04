@@ -1,0 +1,29 @@
+body {
+	background-image: url("http://orig01.deviantart.net/ed0f/f/2016/087/b/1/fire_emblem_fates_inventory_screen_by_kaz_kirigiri-d9wv4jf.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#leftFlexBox {
+	position: absolute;
+	left: 20%;
+	display: inline-flex;
+	flex-direction: column;
+	width: 49%;
+}
+
+#rightFlexBox {
+	position: absolute;
+	right: 20%;
+	display: inline-flex;
+	flex-direction: column;
+	width: 49%;
+
+	transform: scaleX(-1);
+}
+
+
+
+.characterSlot {
+
+}
