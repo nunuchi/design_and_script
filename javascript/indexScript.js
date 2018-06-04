@@ -7,6 +7,8 @@ var audio = new Audio('se/little_robot_sound_factory_multimedia_Click_Electronic
 
 
 window.onload = function() {
+	var isChrome = !!window.chrome && !!window.chrome.webstore;
+	if(isChrome) {alert("Alert to allow for autoplay of music and sound effects if using google chrome.");}
 	init();
 }
 
